@@ -23,6 +23,7 @@ public class Main {
         String myString = "";
         File filename;
         for(int i=0; i<n; i++) {
+
             filename = new File(path, "file"+i+".txt");
             try(FileOutputStream fileOutputStream = new FileOutputStream(filename)) {
 
